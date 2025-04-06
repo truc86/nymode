@@ -179,13 +179,13 @@ const addToCart = () => {
                   />
                 </div>
               </div>
-              <div class="text-sm text-gray-300">
+              <div class="text-sm dark:text-gray-300">
                 Color: {{ variant.color }}
               </div>
-              <div class="text-sm text-gray-300">
+              <div class="text-sm dark:text-gray-300">
                 Available sizes: {{ variant.size.join(', ') }}
               </div>
-              <div class="text-sm text-gray-300">
+              <div class="text-sm dark:text-gray-300">
                 Stock:
                 <span
                   :class="{

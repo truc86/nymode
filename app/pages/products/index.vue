@@ -37,7 +37,7 @@ const gridItems = computed(() => {
 </script>
 
 <template>
-  <div v-if="data?.products as Product[]" class="container mx-auto px-4">
+  <div v-if="data?.products as Product[]" class="container mx-auto px-4 py-8">
     <div class="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <!-- Product Card -->
       <div

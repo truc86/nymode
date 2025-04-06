@@ -3,9 +3,6 @@
 <template>
   <div>
     <div class="container">
-      <div class="header">
-        <h1>My Vue App</h1>
-      </div>
       <div class="content">
         <p>Welcome to my Vue.js application!</p>
         <p>This is a simple example of a Vue component.</p>
